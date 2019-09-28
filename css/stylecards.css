@@ -1,0 +1,39 @@
+@charset "UTF-8";
+#mycardbar {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  width: 100%;
+  margin-bottom: 20px; }
+
+#mycardbar .pro {
+  width: 30%;
+  border: 1px solid grey;
+  box-shadow: 0 -6px green;
+  padding: 30px; }
+
+#mycardbar h3 {
+  color: black;
+  margin: 0; }
+
+#mycardbar p {
+  margin: 0;
+  color: black;
+  font-size: 1em; }
+
+#mycardbar ul {
+  color: black;
+  list-style-type: none; }
+
+#mycardbar li:before {
+  content: "✓ ";
+  color: green;
+  font-weight: bold; }
+
+#mycardbar .demo {
+  font-weight: bold; }
+
+#mycardbar hr {
+  border: 0.5px solid #5b9bb7; }
+
+/*# sourceMappingURL=stylecards.css.map */
