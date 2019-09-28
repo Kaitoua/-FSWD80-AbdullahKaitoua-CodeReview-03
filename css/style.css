@@ -73,6 +73,7 @@ nav li:hover {
 }
 
 .contentbg h1{
+  display: block;
   color: white;
   padding-left: 20px;
   padding-top: 25px;
@@ -109,7 +110,7 @@ nav li:hover {
     top: 15%;
     left: 10%;
     border: 1px solid darkgrey;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.8);
 
 
   }
@@ -123,11 +124,11 @@ nav li:hover {
       border-radius: 4px;
       box-sizing: border-box; 
        }
-  #myform #formwrap .form {
+  .form {
         font-size: 1em;
         width: 30%; }
 
-  #myform #forheading {
+  #forheading {
       color: grey;
       text-align: center;
       padding: 0 20%;
@@ -161,7 +162,7 @@ nav li:hover {
         cursor: pointer; 
       }
       #mybtn button:hover {
-        background-color: #131313;
+        background-color: lightblue;
          }
     #mycalc {
       font-size: 1em;
@@ -221,16 +222,59 @@ nav li:hover {
   text-align: center;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 799px) 
+@media only screen and (max-width: 690px) 
 {
-  #contentbg #myform #formwrap .form
-            {
-              width: 50%;
-              margin-bottom: 20px;
-            } 
+
   #mycard .pro
           {
           width: 50%;
           margin-bottom: 20px;
            }
+ #forheading{
+    display: none !important;
+    
+
+ }
+
+ .mobile-hide
+ {
+    display: none !important;
+    
+
+ }
+
+ #mybtn button {
+        width: 20%;
+        background-color:green;
+        
+        padding: 5px 5px;
+        margin: 3px auto;
+
+        border: none;
+        border-radius: 3px;
+        color: white;
+        font-size: 1em;
+        cursor: pointer; 
+      }
+ 
+  #myform {
+   
+    width:80%;
+    height: 66%;
+   
+    
+    top: 10%;
+    
+    border: 1px solid darkgrey;
+  }
+
+    #formwrap{
+      display: flex;
+      flex-direction: column;
+      left: 5%;
+      
+
+
+       }
+
 }
